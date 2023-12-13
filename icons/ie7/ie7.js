@@ -13,14 +13,14 @@
 		el.innerHTML = '<span style="font-family: \'S2S-Pack-Icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		's2scalendar-svgrepo-com': '&#xe908;',
-		's2strophy-symbol-svgrepo-com': '&#xe900;',
-		's2ssearch-svgrepo-com2': '&#xe901;',
-		's2sphone-svgrepo-com': '&#xe902;',
-		's2scrown-star-svgrepo-com': '&#xe903;',
-		's2sclose-svgrepo-com': '&#xe904;',
-		's2scheck-svgrepo-com1': '&#xe905;',
-		's2sclock-svgrepo-com': '&#xe906;',
+		's2s-icon-calendar': '&#xe908;',
+		's2s-icon-trophy': '&#xe900;',
+		's2s-icon-search': '&#xe901;',
+		's2s-icon-phone': '&#xe902;',
+		's2s-icon-crown': '&#xe903;',
+		's2s-icon-close': '&#xe904;',
+		's2s-icon-check': '&#xe905;',
+		's2s-icon-clock': '&#xe906;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
@@ -31,7 +31,7 @@
 			break;
 		}
 		c = el.className;
-		c = c.match(/s2s[^\s'"]+/);
+		c = c.match(/s2s-icon-[^\s'"]+/);
 		if (c && icons[c[0]]) {
 			addIcon(el, icons[c[0]]);
 		}

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'S2S-Pack-Icons';
-  src:  url('fonts/S2S-Pack-Icons.eot?sd5byr');
-  src:  url('fonts/S2S-Pack-Icons.eot?sd5byr#iefix') format('embedded-opentype'),
-    url('fonts/S2S-Pack-Icons.ttf?sd5byr') format('truetype'),
-    url('fonts/S2S-Pack-Icons.woff?sd5byr') format('woff'),
-    url('fonts/S2S-Pack-Icons.svg?sd5byr#S2S-Pack-Icons') format('svg');
+  src:  url('fonts/S2S-Pack-Icons.eot?23a6xd');
+  src:  url('fonts/S2S-Pack-Icons.eot?23a6xd#iefix') format('embedded-opentype'),
+    url('fonts/S2S-Pack-Icons.ttf?23a6xd') format('truetype'),
+    url('fonts/S2S-Pack-Icons.woff?23a6xd') format('woff'),
+    url('fonts/S2S-Pack-Icons.svg?23a6xd#S2S-Pack-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,27 +25,27 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.s2scalendar-svgrepo-com:before {
+.s2s-icon-calendar:before {
   content: "\e908";
 }
-.s2strophy-symbol-svgrepo-com:before {
+.s2s-icon-trophy:before {
   content: "\e900";
 }
-.s2ssearch-svgrepo-com2:before {
+.s2s-icon-search:before {
   content: "\e901";
 }
-.s2sphone-svgrepo-com:before {
+.s2s-icon-phone:before {
   content: "\e902";
 }
-.s2scrown-star-svgrepo-com:before {
+.s2s-icon-crown:before {
   content: "\e903";
 }
-.s2sclose-svgrepo-com:before {
+.s2s-icon-close:before {
   content: "\e904";
 }
-.s2scheck-svgrepo-com1:before {
+.s2s-icon-check:before {
   content: "\e905";
 }
-.s2sclock-svgrepo-com:before {
+.s2s-icon-clock:before {
   content: "\e906";
 }

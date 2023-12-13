@@ -7,3 +7,9 @@ This icon pack was created for the [s2s.academy](https://s2s.academy) website. T
 ```html
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 ```
+
+### Used
+
+```html
+<i class="s2s-icon-[icon-name]"></i>
+```
