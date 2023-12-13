@@ -5,7 +5,7 @@ This icon pack was created for the [s2s.academy](https://s2s.academy) website. T
 ### Install
 
 ```html
-<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<link rel="stylesheet" href="https://platform-online-course.github.io/s2s-icon-pake/icons/style.css">
 ```
 
 ### Used
