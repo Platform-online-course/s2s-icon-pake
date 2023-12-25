@@ -13,6 +13,11 @@
 		el.innerHTML = '<span style="font-family: \'S2S-Pack-Icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		's2s-icon-arrow-up': '&#xe909;',
+		's2s-icon-arrow-down': '&#xe90a;',
+		's2s-icon-arrow-left': '&#xe90b;',
+		's2s-icon-arrow-right': '&#xe90c;',
+		's2s-icon-pencil': '&#xe907;',
 		's2s-icon-calendar': '&#xe908;',
 		's2s-icon-trophy': '&#xe900;',
 		's2s-icon-search': '&#xe901;',

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'S2S-Pack-Icons';
-  src:  url('fonts/S2S-Pack-Icons.eot?23a6xd');
-  src:  url('fonts/S2S-Pack-Icons.eot?23a6xd#iefix') format('embedded-opentype'),
-    url('fonts/S2S-Pack-Icons.ttf?23a6xd') format('truetype'),
-    url('fonts/S2S-Pack-Icons.woff?23a6xd') format('woff'),
-    url('fonts/S2S-Pack-Icons.svg?23a6xd#S2S-Pack-Icons') format('svg');
+  src:  url('fonts/S2S-Pack-Icons.eot?lm9emo');
+  src:  url('fonts/S2S-Pack-Icons.eot?lm9emo#iefix') format('embedded-opentype'),
+    url('fonts/S2S-Pack-Icons.ttf?lm9emo') format('truetype'),
+    url('fonts/S2S-Pack-Icons.woff?lm9emo') format('woff'),
+    url('fonts/S2S-Pack-Icons.svg?lm9emo#S2S-Pack-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.s2s-icon-arrow-up:before {
+  content: "\e909";
+}
+.s2s-icon-arrow-down:before {
+  content: "\e90a";
+}
+.s2s-icon-arrow-left:before {
+  content: "\e90b";
+}
+.s2s-icon-arrow-right:before {
+  content: "\e90c";
+}
+.s2s-icon-pencil:before {
+  content: "\e907";
+}
 .s2s-icon-calendar:before {
   content: "\e908";
 }
