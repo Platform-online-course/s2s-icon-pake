@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'S2S-Pack-Icons';
-  src:  url('fonts/S2S-Pack-Icons.eot?lm9emo');
-  src:  url('fonts/S2S-Pack-Icons.eot?lm9emo#iefix') format('embedded-opentype'),
-    url('fonts/S2S-Pack-Icons.ttf?lm9emo') format('truetype'),
-    url('fonts/S2S-Pack-Icons.woff?lm9emo') format('woff'),
-    url('fonts/S2S-Pack-Icons.svg?lm9emo#S2S-Pack-Icons') format('svg');
+  src:  url('fonts/S2S-Pack-Icons.eot?xt1qse');
+  src:  url('fonts/S2S-Pack-Icons.eot?xt1qse#iefix') format('embedded-opentype'),
+    url('fonts/S2S-Pack-Icons.ttf?xt1qse') format('truetype'),
+    url('fonts/S2S-Pack-Icons.woff?xt1qse') format('woff'),
+    url('fonts/S2S-Pack-Icons.svg?xt1qse#S2S-Pack-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.s2s-icon-telegram:before {
+  content: "\e90d";
+}
+.s2s-icon-mail:before {
+  content: "\e90e";
+}
+.s2s-icon-vk:before {
+  content: "\e90f";
+}
 .s2s-icon-arrow-up:before {
   content: "\e909";
 }

@@ -13,6 +13,9 @@
 		el.innerHTML = '<span style="font-family: \'S2S-Pack-Icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		's2s-icon-telegram': '&#xe90d;',
+		's2s-icon-mail': '&#xe90e;',
+		's2s-icon-vk': '&#xe90f;',
 		's2s-icon-arrow-up': '&#xe909;',
 		's2s-icon-arrow-down': '&#xe90a;',
 		's2s-icon-arrow-left': '&#xe90b;',
